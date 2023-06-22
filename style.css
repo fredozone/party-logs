@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efefef;
+}
+
+h1 {
+  margin-top: 44px;
+}
+
+#party-container {
+  margin-left: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.party {
+  margin-top: 10px;
+  position: relative;
+  border: 1px solid black;
+  padding-bottom: 15px;
+  width: 800px;
+  background-color: white;
+}
+
+h2 {
+  background-color: black;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 10px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 11px;
+  right: 13px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  padding: 5px 10px 5px 10px;
+}
+
+.party-details-content {
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 7px;
+  right: 17px;
+}
+
+.party-details {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.details-button {
+  position: relative;
+  left: 350px;
+  height: 28px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid black;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: ease-in-out;
+  transition-delay: 0.2s;
+}
+
+.details-button:hover {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  padding-left: 17px;
+  list-style-type: square;
+}
+
+.close-button {
+  cursor: pointer;
+}

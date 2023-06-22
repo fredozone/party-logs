@@ -2,11 +2,13 @@ const newPartyForm = document.querySelector("#new-party-form");
 const partyContainer = document.querySelector("#party-container");
 
 const PARTIES_API_URL =
-  "http://fsa-async-await.herokuapp.com/api/workshop/parties";
+  "https://fsa-async-await.herokuapp.com/api/workshop/parties";
 const GUESTS_API_URL =
-  "http://fsa-async-await.herokuapp.com/api/workshop/guests";
-const RSVPS_API_URL = "http://fsa-async-await.herokuapp.com/api/workshop/rsvps";
-const GIFTS_API_URL = "http://fsa-async-await.herokuapp.com/api/workshop/gifts";
+  "https://fsa-async-await.herokuapp.com/api/workshop/guests";
+const RSVPS_API_URL =
+  "https://fsa-async-await.herokuapp.com/api/workshop/rsvps";
+const GIFTS_API_URL =
+  "https://fsa-async-await.herokuapp.com/api/workshop/gifts";
 
 // get all parties
 const getAllParties = async () => {
